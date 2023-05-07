@@ -51,6 +51,19 @@ $result = $query->fetch(PDO::FETCH_ASSOC);
                         </div>
                         <!-- #logo end -->
 
+                        <!-- Primary Navigation
+						============================================= -->
+                        <nav class="primary-menu">
+
+                            <ul class="menu-container">
+                                <li class="menu-item">
+                                    <a class="menu-link" href="backend/dashboard">
+                                        <div>Go To Dashboard</div>
+                                    </a>
+                                <li>
+                            </ul>
+
+                        </nav><!-- #primary-menu end -->
                     </div>
                 </div>
             </div>

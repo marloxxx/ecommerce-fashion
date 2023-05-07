@@ -54,6 +54,20 @@ $result = $query->fetch(PDO::FETCH_ASSOC);
                             <a href="index.php" class="retina-logo" data-dark-logo="public/frontend/images/logo-dark@2x.png"><img src="public/frontend/images/logo@2x.png" alt="Canvas Logo"></a>
                         </div>
                         <!-- #logo end -->
+
+                        <!-- Primary Navigation
+						============================================= -->
+                        <nav class="primary-menu">
+
+                            <ul class="menu-container">
+                                <li class="menu-item">
+                                    <a class="menu-link" href="backend/dashboard">
+                                        <div>Go To Dashboard</div>
+                                    </a>
+                                <li>
+                            </ul>
+
+                        </nav><!-- #primary-menu end -->
                     </div>
                 </div>
             </div>
