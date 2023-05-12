@@ -81,7 +81,7 @@ require_once('../../config/koneksi.php');
 
     <script>
         $('#form').submit(function(e) {
-            e.preventDefault();
+            e.preventDefault();iloveyou
             var data = $('#form').serialize();
             data += '&action=tambah';
             $.ajax({

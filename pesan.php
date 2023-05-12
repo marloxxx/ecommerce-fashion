@@ -179,7 +179,7 @@ $result = $query->fetch(PDO::FETCH_ASSOC);
                                 </div>
                                 <div class="col-12 form-group">
                                     <label for="billing-form-address">Total Harga:</label>
-                                    <input type="number" name="total_harga" class="sm-form-control disabled" />
+                                    <input type="number" name="total_harga" class="sm-form-control disabled" readonly />
                                 </div>
                                 <div class="col-12 form-group">
                                     <button type="submit" name="submit" class="button button-3d m-0">Pesan</button>
